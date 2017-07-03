@@ -27,3 +27,5 @@ a bar chart to compare.
 7. Is there a relationship between the bitterness of the beer and its alcoholic content? Draw
 a scatter plot.
 
+plot(BB_Data$ABV, BB_Data$IBU, main = 'Plot of ABV and IBU',xlab = 'Alcohol By Volume(ABV)', ylab = 'International Bittering Units(IBU)', col = "dark blue",lwd = 1)
+
