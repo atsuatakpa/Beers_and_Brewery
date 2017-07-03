@@ -27,5 +27,11 @@ a bar chart to compare.
 7. Is there a relationship between the bitterness of the beer and its alcoholic content? Draw
 a scatter plot.
 
-```{r}plot(BB_Data$ABV, BB_Data$IBU, main = 'Plot of ABV and IBU',xlab = 'Alcohol By Volume(ABV)', ylab = 'International Bittering Units(IBU)', col = "dark blue",lwd = 1)
-```
+## Plots
+Visual evidence to support the analysis is provided in this repository in the Plots folder. Plot included are
+1. Barchart of median alcohol content
+2. Barchart of median international bitterness
+3. Scatter plot of Alcohol by Volume and International Bitterness
+
+## Conclusion
+Visual evidence shows a positive correlation between the Alcohol by Volume(ABV) and the International Bitterness (IBU). However, we cannot draw complete statistical conclusions from this because there are other questions about the data we do not know such as the method that was used in gathering the data.
